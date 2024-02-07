@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../styles/features.css"
+import "../styles/configurator.css"
 
-export const Features = (props) => {
+export const Configurator = (props) => {
   const [selectedSegment, setSelectedSegment] = useState("");
   const [selectedManufacturer, setSelectedManufacturer] = useState("");
   const [selectedModel, setSelectedModel] = useState("");
@@ -39,7 +39,7 @@ export const Features = (props) => {
   };
 
   return (
-    <div id="features" className="text-center">
+    <div id="configurator" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2>Configure here</h2>

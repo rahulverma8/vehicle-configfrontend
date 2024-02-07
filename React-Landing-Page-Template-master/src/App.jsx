@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Configurator } from "./components/configurator";
 import { About } from "./components/login";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
@@ -30,7 +30,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      <Configurator data={landingPageData.Configurator} />
       
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
